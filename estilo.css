@@ -1,5 +1,5 @@
 div {
-    border: 1px solid #ff0000;
+    border: 1px solid #3a3a3a;
 }
 html, body{
     margin:0;
@@ -11,7 +11,7 @@ html, body{
 
     width: 268px;
     height: 474;
-    background-color: #ff00ff;
+    background-color: #999999;
 }
 
 .img-card{
@@ -34,7 +34,7 @@ html, body{
 
     font-size: 25px;
     font-family: impact;
-    color: #ff6500;
+    color: #9c1807;
     font-weight: bold;
     padding: 10px 5px;
 }
@@ -53,4 +53,31 @@ html, body{
 .botao-comprar{
 
     padding: 10px 5px;
+}
+
+.menu {
+
+    background-color: #666666;
+    color: #ffffffff;
+    border:1px solid;
+    display: flex;
+
+}
+
+.item-menu{
+
+    list-style: none;
+    padding:10px 20px;
+    
+}
+
+.item-menu:hover{
+    background-color: #999999;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    
 }
